@@ -1,6 +1,6 @@
 # Flutter 101
 
-Demostrate Flutter basics with presentation deck and simple example app.
+Demonstrate Flutter basics with presentation deck and simple example app.
 
 ## Install
 
