@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "\"Fira Code\", Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.tabCompletion": "on"
+}
