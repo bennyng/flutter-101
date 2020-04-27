@@ -130,16 +130,15 @@ Note:
 
 Note:
 
-- TBC app idea (KaiOS?)
-- launch to iOS, Android
-- iFrame
+- switch to example in VS code
+- make some changes on example
 
 ---
 
 ## enable Flutter web
 
 ```sh
-$ flutter channel master
+$ flutter channel beta
 $ flutter upgrade
 $ flutter config --enable-web
 $ flutter create .
@@ -163,7 +162,7 @@ https://flutter-101.surge.sh/#/
 - animation (canvas, shder)
 - theming
 - native hardware integrate (Channel)
-- channel (stable, master, dev, beta)
+- channel (stable, beta, dev, master)
 - multi-processing (isolate)
 
 ---

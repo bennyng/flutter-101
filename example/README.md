@@ -34,7 +34,7 @@ flutter build apk
 ## Enable Web
 
 ```sh
-flutter channel master
+flutter channel beta
 flutter upgrade
 flutter config --enable-web
 flutter create .
