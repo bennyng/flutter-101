@@ -57,9 +57,11 @@ class _MyAppState extends State<MyApp> {
     var audienceProvider = Provider.of<AudienceProvider>(context);
 
     return MaterialApp(
-      title: 'KaiOS App Store',
+      title: 'App Store',
       theme: ThemeData(
-        primarySwatch: Colors.purple,
+        primarySwatch: Colors.teal,
+        // primarySwatch: Colors.blue,
+        // brightness: Brightness.dark,
       ),
       home: audienceProvider.getAudienceByCode(this.audienceCode).entryScreen,
     );

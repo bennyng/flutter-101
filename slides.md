@@ -95,16 +95,17 @@ Note:
 
 ## UI Components
 
-- rich official components
+- [Flutter Gallery (official)](https://flutter.github.io/gallery/#/)
+- [Widget index (official)](https://flutter.dev/docs/reference/widgets)
+- [Syncfusion](https://www.syncfusion.com/flutter-widgets) ([web demo](https://flutter.syncfusion.com/))
+- [CodePen](https://codepen.io/flutter) ([demo](https://blog.codepen.io/2020/04/15/flutter-on-codepen/))
 - Material Design, cupertino
-- [Syncfusion](https://www.syncfusion.com/flutter-widgets)
-- CodePen
 
 ---
 
 ## CI / CD
 
-- strong CLI tools
+- strong CLI tools (pub, build, format, analyze, doctor, generate)
 - single command build binary
 - Fastlane support
 
@@ -118,20 +119,30 @@ Note:
 - culture fit (learn until die)
 - less fragile for breaking changes
 
+Note:
+
+https://medium.com/building-nubank/https-medium-com-freire-why-nubank-chose-flutter-61b80b568772
+
 ---
 
 ## adopter NuBank
 
 ![nubank](nubank.png)
 
+#### [credit](https://medium.com/building-nubank/https-medium-com-freire-why-nubank-chose-flutter-61b80b568772)
+
+Note:
+
+https://medium.com/building-nubank/https-medium-com-freire-why-nubank-chose-flutter-61b80b568772
+
 ---
 
-## demo time
+#### demo time
 
 Note:
 
 - switch to example in VS code
-- make some changes on example
+- change theme on example
 
 ---
 
@@ -164,6 +175,61 @@ https://flutter-101.surge.sh/#/
 - native hardware integrate (Channel)
 - channel (stable, beta, dev, master)
 - multi-processing (isolate)
+- code generate
+
+---
+
+## code generate
+
+```json
+{
+  "name": "Container",
+  "params": {
+    "color": "#Color(0xFF22DD11)",
+    "child": {
+      "name": "Text",
+      "params": {
+        "0": "Hello, World"
+      }
+    }
+  }
+}
+```
+
+Note:
+
+https://towardsdatascience.com/the-3-secret-weapons-that-changed-my-python-editor-forever-c99f7b2e0084
+
+---
+
+## code generate
+
+```dart
+import 'package:flutter/material.dart';
+import 'example.dart' as generated; // May not exist, it is okay!
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: Scaffold(
+        body: ListView(
+          children: [
+            // use our generated widget
+            generated.GeneratedWidget(),
+          ]
+        ),
+      ),
+    );
+  }
+}
+```
 
 ---
 
