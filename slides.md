@@ -105,7 +105,7 @@ Note:
 
 ## CI / CD
 
-- strong CLI tools (pub, build, format, analyze, doctor, generate)
+- strong CLI tools (build, format, doctor, generate)
 - single command build binary
 - Fastlane support
 
@@ -169,8 +169,9 @@ https://flutter-101.surge.sh/#/
 
 ## more...
 
-- state management
-- animation (canvas, shder)
+- state management (BLoc, provider, redux)
+- [Flutter clock challenge](https://medium.com/flutter/its-time-the-flutter-clock-contest-results-dcebe2eb3957)
+- animation ([CustomPaint](https://medium.com/flutter-community/flutter-custom-painter-circular-wave-animation-bdc65c112690), shader, [flare](https://medium.com/rive/building-a-water-tracking-app-with-flare-flutter-f03de436dba3))
 - theming
 - native hardware integrate (Channel)
 - channel (stable, beta, dev, master)
@@ -180,6 +181,11 @@ https://flutter-101.surge.sh/#/
 ---
 
 ## code generate
+
+```
+# example.json
+$ flutter generate
+```
 
 ```json
 {
@@ -233,7 +239,7 @@ class MyApp extends StatelessWidget {
 
 ---
 
-## wait a sec
+## wait a sec...
 
 - framework code bumped up app size
 - Dart still young
@@ -251,6 +257,7 @@ class MyApp extends StatelessWidget {
 - https://flutter.github.io/gallery/
 - https://flutterx.com/
 - https://dart.dev/guides/language/effective-dart
+- https://flutter.cn/
 
 ---
 
@@ -263,3 +270,4 @@ class MyApp extends StatelessWidget {
 - benny.ng@gmail.com
 - https://github.com/bennyng
 - https://twitter.com/hin556
+- https://github.com/bennyng/flutter-101
