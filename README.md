@@ -2,6 +2,9 @@
 
 Demonstrate Flutter basics with presentation deck and simple example app.
 
+[Presentation Deck](https://bennyng.github.io/)
+[Example Flutter ppp on web](https://flutter-101.surge.sh)
+
 ## Install
 
 ```sh
@@ -29,7 +32,3 @@ reveal-md --static static slides.md
 ## Example App
 
 [How to run example app](./example/README.md)
-
-## Preview the Example App
-
-https://flutter-101.surge.sh

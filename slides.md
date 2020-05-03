@@ -15,7 +15,7 @@ revealOptions:
 
 - coder, learner, teacher, father
 - co-founded **42 Labs**, **F5 Works**
-- build stuff for commercial & commnunity
+- build stuff for commercial & community
 - recent interests: **Flutter**, **NuxtJS**, **NestJS**, **Istio**
 
 ---
