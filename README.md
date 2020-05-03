@@ -3,7 +3,8 @@
 Demonstrate Flutter basics with presentation deck and simple example app.
 
 [Presentation Deck](https://bennyng.github.io/)
-[Example Flutter ppp on web](https://flutter-101.surge.sh)
+
+[Example Flutter app on web](https://flutter-101.surge.sh)
 
 ## Install
 
